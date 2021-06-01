@@ -89,6 +89,7 @@ span.carousel-control-next.custom :hover {
 
 /* image de l'index*/
 #imageApp{
-    border: 1px solid rgba(0, 0, 0, 0.685);
+    border: 1px solid rgba(0, 0, 0, 0.548);
     margin-left: 50px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
 }
