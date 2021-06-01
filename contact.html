@@ -21,7 +21,7 @@
 <body>
   <header>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg text-dark" style="background-color: rgba(0, 0, 0, 0.2);">
+        <nav class="navbar-dark navbar  navbar-expand-lg text-dark" style="background-color: rgba(0, 0, 0, 0.2);">
             <div class="container-fluid">
               <a class="navbar-brand text-dark" href="index.html">Accueil</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,20 +54,30 @@
                 <div class="col-md-12 text-center" style="margin-top: 100px;">
                     <ul class="list-unstyled">
                         <li>
-                            <img src="img/telegram_paper_plane_social_network_chat_icon_179742.png" style="width: 5rem;">
-                            <p>20 rue des Augustins <br> 53 000 LAVAL</p>
+                            <div class="map">
+                                <a href="https://www.google.com/maps/place/25+Rue+Bernard+le+Pecq,+53000+Laval/@48.0712121,-0.7798581,17z/data=!3m1!4b1!4m5!3m4!1s0x4808fd8cf6a71fa3:0x98d69c9c4be13c07!8m2!3d48.0712085!4d-0.7776694" style="text-decoration: none;" target="_blank">
+                                    <img src="img/telegram_paper_plane_social_network_chat_icon_179742.png" style="width: 5rem;">
+                                    <p>25 rue Bernard le Pecq <br> 53 000 LAVAL</a></p>
+                                </a>
+                            </div>
                         </li>
         
                         <li>
-                            <img src="img/telephone_call_speak_talk_icon_179749.png" style="width: 5rem;">
-                            <p><a href="tel:+330243747312">02 43 74 73 12</a></p>
-                            
+                            <div class="phone">
+                                <a href="tel:+330243747312" style="text-decoration: none;">
+                                    <img src="img/telephone_call_speak_talk_icon_179749.png" style="width: 5rem;">
+                                    <p>02 43 74 73 12</p>
+                                </a>
+                            </div>      
                         </li>
         
                         <li>
-                            <img src="img/gmail_mail_email_envelope_social_network_logo_icon_179747.png" style="width: 5rem;">
-                            <p><a href="mailto:contact@meet-up.com">contact@meet-up.com</a></p>
-                            
+                            <div class="mail">
+                                <a href="mailto:contact@meet-up.com" style="text-decoration: none;">
+                                    <img src="img/gmail_mail_email_envelope_social_network_logo_icon_179747.png" style="width: 5rem;"> 
+                                    <p>contact@meet-up.com</p>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -130,67 +140,68 @@
         </div>       
     </div>
 
-    <footer class="container-fluid footer text-center text-white" style="background-color: #f1f1f1;">
-      <!-- Grid container -->
-      <div class="container pt-4">
+    <br>
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
         <!-- Section: Social media -->
         <section class="mb-4">
-          <!-- Facebook -->
-          <a
+        <!-- Facebook -->
+        <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-facebook"></i>
-          </a>
+        </a>
     
-          <!-- Twitter -->
-          <a
+        <!-- Twitter -->
+        <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
-          ><i class="bi bi-twitter"></i>
-          </a>
+        ><i class="bi bi-twitter"></i>
+        </a>
     
-          <!-- Mail -->
-          <a
+        <!-- Mail -->
+        <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-envelope"></i>
-          </a>
+        </a>
     
-          <!-- Linkedin -->
-          <a
+        <!-- Linkedin -->
+        <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-linkedin"></i>
-          </a>
-          <!-- Github -->
-          <a
+        </a>
+        <!-- Github -->
+        <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
             href="#!"
             role="button"
             data-mdb-ripple-color="dark"
             ><i class="bi bi-github"></i>
-          </a>
+        </a>
         </section>
         <!-- Section: Social media -->
-      </div>
-      <!-- Grid container -->
+    </div>
+    <!-- Grid container -->
     
-      <!-- Copyright -->
-      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2020 Copyright:
         <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-
+    </div>
+    <!-- Copyright -->
+</footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
