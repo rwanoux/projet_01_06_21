@@ -26,90 +26,99 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html">Accueil</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="prez_app.html">Présentation de l'application</a>
-                          </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="prez_entr.html">Qui sommes nous ?</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
+                    <a class="navbar-brand" href="index.html">Accueil</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="prez_app.html">Présentation de l'application</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="prez_entr.html">Qui sommes nous ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </nav>
+            </nav>
         </div>
     </header>
-    
+
     <div class="container-fluid" id="card-pres-container">
-            <!--all presentation are cards with a main carousel div-->
-            <div id="carouselAppPrez" class="carousel slide p-0 m-0" data-bs-ride="carousel">
+        <!--all presentation are cards with a main carousel div-->
+        <div id="carouselAppPrez" class="carousel slide p-0 m-0" data-bs-ride="carousel">
 
-                <div class="carousel-inner">
+            <div class="carousel-inner text-center">
 
-                    <!--first prez-->
-                    <div class="carousel-item slower active">
-                        <!--inner item card-->
-                        <div class="card custom">
+                <!--first prez-->
+                <div class="carousel-item slower active">
+                    <!--inner item card-->
+                    <div class="card custom">
 
-                            <img src="img/idea.jpg" alt="you had an idea">
-                            <div class="card-body custom text-light">
-                                <h5>An amazing idea just hit your mind for your next game</h5>
-                                <p>you had an idea you absolutly need to share with teammates. No problems : just share
-                                    it
-                                    thru "MeetUp"</p>
-                            </div>
+                        <img src="img/idea.jpg" alt="you had an idea">
+                        <div class="card-body custom text-light">
+                            <h2>
+                                <i class="bi bi-lightbulb"></i>
+                            </h2>
+                            <h5>An amazing idea just hit your mind for your next game</h5>
+                            <p>you had an idea you absolutly need to share with teammates. No problems : just share
+                                it
+                                thru "MeetUp"</p>
                         </div>
-
                     </div>
 
-                    <!--second prez-->
-                    <div class="carousel-item slower ">
-                        <!--inner item card-->
-                        <div class="card custom">
-
-                            <img src="img/validate.jpg" alt="you had an idea">
-                            <div class="card-body text-light custom">
-                                <h5>Your team respond instantly</h5>
-                                <p>All your team members can validate your proposal thru "MeetUp"</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!--third prez-->
-                    <div class="carousel-item slower ">
-                        <!--inner item card-->
-                        <div class="card custom text-light">
-
-                            <img src="img/mmoteam.jpg" alt="you had an idea">
-                            <div class="card-body custom">
-                                <h5>Organize your game</h5>
-                                <p>all team actions can know be managed thru "MeetUp".</p>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
 
-                <!--contrl buttons next/prv-->
-                <button class="carousel-control-prev btn-outline-dark" type="button" data-bs-target="#carouselAppPrez"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next btn-outline-dark" type="button" data-bs-target="#carouselAppPrez"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <!--second prez-->
+                <div class="carousel-item slower ">
+                    <!--inner item card-->
+                    <div class="card custom">
+
+                        <img src="img/validate.jpg" alt="you had an idea">
+                        <div class="card-body text-light custom">
+                            <h2><i class="bi bi-check-lg"></i></h2>
+                            <h5>Your team respond instantly</h5>
+                            <p>All your team members can validate your proposal thru "MeetUp"</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--third prez-->
+                <div class="carousel-item slower ">
+                    <!--inner item card-->
+                    <div class="card custom text-light">
+
+                        <img src="img/mmoteam.jpg" alt="you had an idea">
+                        <div class="card-body custom">
+                            <h2>
+                                <i class="bi bi-chevron-double-left"></i>
+                                <i class="bi bi-chevron-double-right"></i>
+                            </h2>
+                            <h5>Organize your game</h5>
+                            <p>all team actions can know be managed thru "MeetUp".</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
+            <!--contrl buttons next/prv-->
+            <button class="carousel-control-prev btn-outline-dark" type="button" data-bs-target="#carouselAppPrez"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn-outline-dark" type="button" data-bs-target="#carouselAppPrez"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
     </div>
 
