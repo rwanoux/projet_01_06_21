@@ -92,7 +92,9 @@ span.carousel-control-next.custom :hover {
     animation-duration: 5s;
     animation-name: imgCard-appear;
 }
-
+#card-pres-container{
+    padding: 0%!important;
+}
 .footerContact{
     position: fixed;
     bottom: 0px;
@@ -102,9 +104,7 @@ span.carousel-control-next.custom :hover {
 #imageApp{  
     margin-left: 50px; 
 }
-.container-fluid{
-    padding:0%!important
-}
+
 
 img.growth{
     animation-duration: 5s;
