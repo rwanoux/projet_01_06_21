@@ -44,12 +44,12 @@
     }
 }
 
-span.carousel-control-prev-icon.custom,
-span.carousel-control-next-icon.custom {
+span.carousel-control-prev .custom,
+span.carousel-control-next .custom {
     text-shadow: 0px 0px 60px black;
 }
-span.carousel-control-prev-icon.custom :hover,
-span.carousel-control-next-icon.custom :hover {
+span.carousel-control-prev.custom :hover,
+span.carousel-control-next.custom :hover {
     text-shadow: 0px 0px 60px black;
 }
 
