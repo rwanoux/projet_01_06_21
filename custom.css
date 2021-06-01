@@ -111,6 +111,17 @@ img.growth{
     animation-name: imgGrowth;
 }
 
+a.navbar-brand,
+li.nav-item{
+    border-bottom : 1px solid transparent;
+    border-top : 3px solid transparent;
+    transition: all ease-in 0.3s;
+}
+a.navbar-brand:hover,
+li.nav-item:hover{
+    border-bottom : 1px solid lightgray;
+    border-top : 3px solid lightgray;
 
+}
 
 
