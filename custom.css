@@ -82,3 +82,7 @@ span.carousel-control-next.custom :hover {
 .container-fluid{
     padding:0%!important
 }
+.footerContact{
+    position: fixed;
+    bottom: 0px;
+}
