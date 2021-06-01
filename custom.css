@@ -3,7 +3,7 @@
         -webkit-transform: scale(1);
         transform: scale(1);
         opacity: 1;
-        padding-left: 0vw;
+        right:0%
     }
     10% {
         -webkit-transform: scale(1);
@@ -11,10 +11,9 @@
         opacity: 0;
     }
     50% {
-        -webkit-transform: scale(1.8);
-        transform: scale(1.8);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
         opacity: 1;
-        padding-left: 20vw;
     }
 
     80% {
@@ -26,6 +25,7 @@
         -webkit-transform: scale(1);
         transform: scale(1);
         opacity: 1;
+        right:50%
     }
 }
 
@@ -65,7 +65,7 @@ span.carousel-control-next.custom :hover {
 .card.custom .card-body.custom {
     animation-duration: 5s;
     animation-name: textCard-appear;
-
+    max-width: 50vw;
     background-color: rgba(0, 0, 0, 0.281);
     position: absolute;
     top: 20%;
