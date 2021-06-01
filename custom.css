@@ -79,9 +79,9 @@ span.carousel-control-next.custom :hover {
     animation-duration: 5s;
     animation-name: imgCard-appear;
 }
-.container-fluid{
+/*.container-fluid{
     padding:0%!important
-}
+}*/
 .footerContact{
     position: fixed;
     bottom: 0px;
