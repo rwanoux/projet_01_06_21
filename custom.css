@@ -77,3 +77,6 @@ span.carousel-control-next-icon.custom :hover {
     animation-duration: 5s;
     animation-name: imgCard-appear;
 }
+.container-fluid{
+    padding:0%!important
+}
